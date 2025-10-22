@@ -1,0 +1,17 @@
+{
+  "name": "copy-attachments-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that copies attachments from a specific user to a hidden channel",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  }
+}
